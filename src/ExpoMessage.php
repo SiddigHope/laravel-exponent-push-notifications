@@ -221,7 +221,8 @@ class ExpoMessage
         $message = [
             'title'     =>  $this->title,
             'body'      =>  $this->body,
-            'sound'     =>  $this->sound,
+            // 'sound'     =>  $this->sound,
+            'sound'     =>  'notification.wav',
             'badge'     =>  $this->badge,
             'ttl'       =>  $this->ttl,
             'data'      =>  $this->jsonData,
